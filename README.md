@@ -18,7 +18,7 @@ Nuxt module to integrate Vercel Analytics.
 
 ## Quick Setup
 
-1. Add `@nuxtjs/verce-analytics` dependency to your project
+1. Add `nuxt-vercel-analytics` dependency to your project
 
 ```bash
 # Using pnpm
