@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.1.1...v0.1.2)
+
+
+### 📖 Documentation
+
+  - Remove publish info from README ([0ee126a](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/0ee126a))
+
+### ❤️  Contributors
+
+- Alexander Barkhatov <xanderbarkhatov@gmail.com>
+
 ## v0.1.1
 
 
