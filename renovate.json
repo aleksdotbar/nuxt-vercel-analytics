@@ -1,11 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>danielroe/renovate"],
-  "packageRules": [
-    {
-      "depTypeList": ["devDependencies"],
-      "schedule": "before 3am on Monday",
-      "groupName": "all devDependencies"
-    }
-  ]
+  "extends": ["github>danielroe/renovate"]
 }
