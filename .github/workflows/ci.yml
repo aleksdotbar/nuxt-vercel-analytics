@@ -41,4 +41,4 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: 🧪 Test project
-        run: pnpm test -- --coverage
+        run: pnpm test
