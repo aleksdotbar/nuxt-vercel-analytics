@@ -44,7 +44,7 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.3.2",
+    "@nuxt/kit": "3.4.1",
     "@vercel/analytics": "^0.1.11",
     "defu": "^6.1.2"
   },

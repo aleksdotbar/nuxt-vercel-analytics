@@ -1,7 +1,6 @@
 import { defineNuxtModule, addPlugin, createResolver } from "@nuxt/kit";
 import { defu } from "defu";
 import type { inject } from "@vercel/analytics";
-import { name, version } from "../package.json";
 
 type AnalyticsProps = Exclude<Parameters<typeof inject>[0], undefined>;
 
@@ -28,8 +27,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name,
-    version,
+    name: "nuxt-vercel-analytics",
     configKey: "vercelAnalytics",
   },
   defaults: {},
