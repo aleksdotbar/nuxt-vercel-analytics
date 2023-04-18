@@ -40,11 +40,5 @@ jobs:
       - name: 📦 Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: 🛠 Build project
-        run: pnpm prepack
-
       - name: 🧪 Test project
         run: pnpm test -- --coverage
-
-      - name: 🟩 Coverage
-        uses: codecov/codecov-action@v3
