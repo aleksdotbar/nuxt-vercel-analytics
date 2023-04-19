@@ -16,8 +16,8 @@ devDependencies:
     specifier: 0.1.1
     version: 0.1.1(eslint@8.38.0)
   '@nuxt/module-builder':
-    specifier: 0.2.1
-    version: 0.2.1
+    specifier: 0.3.0
+    version: 0.3.0
   '@nuxt/schema':
     specifier: 3.4.1
     version: 3.4.1(rollup@3.20.6)
@@ -713,11 +713,11 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/module-builder@0.2.1:
-    resolution: {integrity: sha512-Om8q08CO2joxiv9piTL+jcFUAL7nOZrrq9DedbA0PoRww1It1UnRs3Mijp0MfkFNyGHwWbSbmvbo3EhWmGdWUg==}
+  /@nuxt/module-builder@0.3.0:
+    resolution: {integrity: sha512-ocXA3pY5T3YKBLNE/Epgnh5cIIrad6vGP31gT7RorpFa7mtIqMxIPX/Z7RSQ7xnTvZW9sA1AxadjfhwHMEBhKg==}
     hasBin: true
     dependencies:
-      consola: 2.15.3
+      consola: 3.1.0
       mlly: 1.2.0
       mri: 1.2.0
       pathe: 1.1.0
@@ -1961,10 +1961,6 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
-    dev: true
-
-  /consola@2.15.3:
-    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
     dev: true
 
   /consola@3.1.0:
