@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "3.4.1",
-    "@vercel/analytics": "^0.1.11",
+    "@vercel/analytics": "^1.0.0",
     "defu": "^6.1.2"
   },
   "devDependencies": {
