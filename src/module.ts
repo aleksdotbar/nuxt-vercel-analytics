@@ -1,4 +1,9 @@
-import { defineNuxtModule, addPlugin, createResolver } from "@nuxt/kit";
+import {
+  defineNuxtModule,
+  addPlugin,
+  addImports,
+  createResolver,
+} from "@nuxt/kit";
 import { defu } from "defu";
 import type { inject } from "@vercel/analytics";
 
@@ -42,6 +47,12 @@ export default defineNuxtModule<ModuleOptions>({
     addPlugin({
       src: resolve("./runtime/plugin.client"),
       mode: "client",
+    });
+
+    addImports({
+      from: "@vercel/analytics",
+      name: "track",
+      as: "vercelTrack",
     });
   },
 });
