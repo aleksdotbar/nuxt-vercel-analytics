@@ -14,9 +14,14 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Nuxt module to integrate Vercel Analytics.
+> Nuxt module for easy [Vercel Web Analytics](https://vercel.com/docs/concepts/analytics) integration
 
-## Quick Setup
+## Features
+
+- Zero-config
+- Auto-imported `track` function aliased as `vercelTrack`
+
+## Setup
 
 1. Add `nuxt-vercel-analytics` dependency to your project
 
@@ -40,6 +45,46 @@ export default defineNuxtConfig({
 ```
 
 That's it! Vercel Analytics is now integrated in your Nuxt app ✨
+
+## Configuration
+
+```js
+export default defineNuxtConfig({
+  modules: ["nuxt-vercel-analytics"],
+
+  vercelAnalytics: {
+    mode: "auto",
+    debug: true,
+    beforeSend: (event) => {
+      if (event.url.includes("/private")) return null;
+
+      return event;
+    },
+  },
+});
+```
+
+## Custom Events
+
+To track an event, call `vercelTrack` and pass in a string representing the event name as the first argument
+
+```js
+const onSignup = () => {
+  vercelTrack("Signup");
+  // ...other logic
+};
+```
+
+### Custom data
+
+You can also pass custom data along with an event by passing an object as the second argument
+
+```js
+const onSignup = () => {
+  vercelTrack("Signup", { location: "footer" });
+  // ...other logic
+};
+```
 
 ## Development
 
