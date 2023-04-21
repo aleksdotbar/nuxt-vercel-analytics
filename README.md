@@ -14,7 +14,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-> Nuxt module for easy [Vercel Web Analytics](https://vercel.com/docs/concepts/analytics) integration
+> [Vercel Web Analytics](https://vercel.com/docs/concepts/analytics) integration for Nuxt
 
 ## Features
 
