@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.1.4...v0.2.0)
+
+
+### 🩹 Fixes
+
+  - ⚠️  Move config to app.config.ts ([275964e](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/275964e))
+
+#### ⚠️  Breaking Changes
+
+  - ⚠️  Move config to app.config.ts ([275964e](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/275964e))
+
+### ❤️  Contributors
+
+- Alexander B ([@xanderbarkhatov](http://github.com/xanderbarkhatov))
+
 ## v0.1.4
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.1.3...v0.1.4)
