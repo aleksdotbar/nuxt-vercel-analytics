@@ -49,9 +49,8 @@ That's it! Vercel Analytics is now integrated in your Nuxt app ✨
 ## Configuration
 
 ```js
-export default defineNuxtConfig({
-  modules: ["nuxt-vercel-analytics"],
-
+// app.config.ts
+export default defineAppConfig({
   vercelAnalytics: {
     mode: "auto",
     debug: true,

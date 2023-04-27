@@ -1,10 +1,8 @@
-import { defineNuxtPlugin, useRuntimeConfig } from "#app";
+import { defineNuxtPlugin, useAppConfig } from "#app";
 import { inject } from "@vercel/analytics";
 
 export default defineNuxtPlugin(() => {
-  const {
-    public: { vercelAnalytics: options },
-  } = useRuntimeConfig();
+  const config = useAppConfig();
 
-  inject(options);
+  inject(config.vercelAnalytics);
 });

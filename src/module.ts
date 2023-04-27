@@ -4,12 +4,11 @@ import {
   addImports,
   createResolver,
 } from "@nuxt/kit";
-import { defu } from "defu";
 import type { inject } from "@vercel/analytics";
 
 type AnalyticsProps = Exclude<Parameters<typeof inject>[0], undefined>;
 
-export interface ModuleOptions {
+interface ModuleOptions {
   /**
    * Override the automatic environment detection.
    * This option allows you to force a specific environment for the package.
@@ -30,18 +29,11 @@ export interface ModuleOptions {
   beforeSend?: AnalyticsProps["beforeSend"];
 }
 
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule({
   meta: {
     name: "nuxt-vercel-analytics",
-    configKey: "vercelAnalytics",
   },
-  defaults: {},
-  setup(options, nuxt) {
-    nuxt.options.runtimeConfig.public.vercelAnalytics = defu(
-      nuxt.options.runtimeConfig.public.vercelAnalytics,
-      options
-    );
-
+  setup(_, nuxt) {
     const { resolve } = createResolver(import.meta.url);
 
     addPlugin({
@@ -53,6 +45,14 @@ export default defineNuxtModule<ModuleOptions>({
       from: "@vercel/analytics",
       name: "track",
       as: "vercelTrack",
+    });
+
+    nuxt.hook("schema:extend", (schemas) => {
+      schemas.push({
+        appConfig: {
+          vercelAnalytics: {},
+        },
+      });
     });
   },
 });
