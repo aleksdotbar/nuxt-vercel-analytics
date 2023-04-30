@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.2.1
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.2.0...v0.2.1)
+
+
+### 🩹 Fixes
+
+  - Add config types ([3d8450b](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/3d8450b))
+
+### ❤️  Contributors
+
+- Alexander B ([@xanderbarkhatov](http://github.com/xanderbarkhatov))
+
 ## v0.2.0
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.1.4...v0.2.0)
