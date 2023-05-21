@@ -1,6 +1,6 @@
 {
   "name": "nuxt-vercel-analytics",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Nuxt module to integrate Vercel Analytics",
   "homepage": "https://github.com/xanderbarkhatov/nuxt-vercel-analytics#readme",
   "repository": {

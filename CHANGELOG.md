@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.2.2
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.2.1...v0.2.2)
+
+
+### 📖 Documentation
+
+  - Add cover and emojis ([eaa85ff](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/eaa85ff))
+
+### ❤️  Contributors
+
+- Alexander B ([@xanderbarkhatov](http://github.com/xanderbarkhatov))
+
 ## v0.2.1
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.2.0...v0.2.1)
