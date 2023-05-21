@@ -1,11 +1,4 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: Nuxt Vercel Analytics
-- Package name: nuxt-vercel-analytics
-- Description: Nuxt module to integrate Vercel Analytics
--->
+![Nuxt Vercel Analytics](/docs/cover.png)
 
 # Nuxt Vercel Analytics
 
@@ -14,14 +7,14 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-> [Vercel Web Analytics](https://vercel.com/docs/concepts/analytics) integration for Nuxt
+> [Vercel Analytics](https://vercel.com/docs/concepts/analytics) integration for Nuxt
 
-## Features
+## 📝 Features
 
-- Zero-config
-- Auto-imported `track` function aliased as `vercelTrack`
+- 🚀 Zero-config
+- 📥 Auto-imports
 
-## Setup
+## 🔧 Setup
 
 1. Add `nuxt-vercel-analytics` dependency to your project
 
@@ -46,7 +39,7 @@ export default defineNuxtConfig({
 
 That's it! Vercel Analytics is now integrated in your Nuxt app ✨
 
-## Configuration
+## ⚙️ Configuration
 
 ```js
 // app.config.ts
@@ -63,7 +56,7 @@ export default defineAppConfig({
 });
 ```
 
-## Custom Events
+## 📈 Custom Events
 
 To track an event, call `vercelTrack` and pass in a string representing the event name as the first argument
 
@@ -83,29 +76,6 @@ const onSignup = () => {
   vercelTrack("Signup", { location: "footer" });
   // ...other logic
 };
-```
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Generate type stubs
-npm run dev:prepare
-
-# Develop with the playground
-npm run dev
-
-# Build the playground
-npm run dev:build
-
-# Run ESLint
-npm run lint
-
-# Run Vitest
-npm run test
-npm run test:watch
 ```
 
 <!-- Badges -->
