@@ -56,6 +56,6 @@
     "changelogen": "0.5.3",
     "eslint": "8.41.0",
     "nuxt": "3.5.2",
-    "vitest": "0.31.1"
+    "vitest": "0.31.4"
   }
 }
