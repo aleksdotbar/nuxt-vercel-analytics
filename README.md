@@ -1,4 +1,4 @@
-![Nuxt Vercel Analytics](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/blob/main/docs/cover.png)
+![Nuxt Vercel Analytics](https://raw.githubusercontent.com/xanderbarkhatov/nuxt-vercel-analytics/main/docs/cover.png)
 
 # Nuxt Vercel Analytics
 
