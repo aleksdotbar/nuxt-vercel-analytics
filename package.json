@@ -44,18 +44,18 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "3.6.5",
+    "@nuxt/kit": "3.8.0",
     "@vercel/analytics": "^1.0.0",
     "defu": "^6.1.2"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "0.2.0",
-    "@nuxt/module-builder": "0.4.0",
-    "@nuxt/schema": "3.6.5",
-    "@nuxt/test-utils": "3.6.5",
+    "@nuxt/module-builder": "0.5.2",
+    "@nuxt/schema": "3.8.0",
+    "@nuxt/test-utils": "3.8.0",
     "changelogen": "0.5.5",
     "eslint": "8.52.0",
-    "nuxt": "3.6.5",
+    "nuxt": "3.8.0",
     "vitest": "0.34.6"
   }
 }
