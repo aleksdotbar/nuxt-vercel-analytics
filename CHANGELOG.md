@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v0.2.3
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.0.1...v0.2.3)
+
+### 💅 Refactors
+
+- Types ([3fc4d69](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/3fc4d69))
+
+### 📖 Documentation
+
+- Use absolute cover url ([fb54bfe](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/fb54bfe))
+- Fix absolute url ([8e917eb](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/commit/8e917eb))
+
+### ❤️ Contributors
+
+- Alexander Barkhatov ([@xanderbarkhatov](http://github.com/xanderbarkhatov))
+- Alexander B ([@xanderbarkhatov](http://github.com/xanderbarkhatov))
+
 ## v0.2.2
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.2.1...v0.2.2)
