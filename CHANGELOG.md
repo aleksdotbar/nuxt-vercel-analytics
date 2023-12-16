@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v1.0.0
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.2.3...v1.0.0)
+
 ## v0.2.3
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.0.1...v0.2.3)
