@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.1
+
+[compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v1.0.0...v1.0.1)
+
+### 📖 Documentation
+
+- Use new `nuxi module add` command in installation ([#81](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/pull/81))
+
+### ❤️ Contributors
+
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+
 ## v1.0.0
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v0.2.3...v1.0.0)
