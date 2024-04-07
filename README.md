@@ -16,25 +16,8 @@
 
 ## 🔧 Setup
 
-1. Add `nuxt-vercel-analytics` dependency to your project
-
 ```bash
-# Using pnpm
-pnpm add -D nuxt-vercel-analytics
-
-# Using yarn
-yarn add --dev nuxt-vercel-analytics
-
-# Using npm
-npm install --save-dev nuxt-vercel-analytics
-```
-
-2. Add `nuxt-vercel-analytics` to the `modules` section of `nuxt.config.ts`
-
-```js
-export default defineNuxtConfig({
-  modules: ["nuxt-vercel-analytics"],
-});
+npx nuxi@latest module add vercel-analytics
 ```
 
 That's it! Vercel Analytics is now integrated in your Nuxt app ✨
