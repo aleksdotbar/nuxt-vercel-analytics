@@ -51,7 +51,7 @@
     "@nuxt/module-builder": "0.5.5",
     "@nuxt/schema": "3.10.1",
     "changelogen": "0.5.5",
-    "eslint": "8.57.0",
+    "eslint": "9.0.0",
     "nuxt": "3.10.1"
   }
 }
