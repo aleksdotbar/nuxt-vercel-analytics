@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.0.3
+
+[compare changes](https://github.com/xanderbale/nuxt-vercel-analytics/compare/v1.0.2...v1.0.3)
+
+### 🏡 Chore
+
+- Update dependency @vercel/analytics to v1.2.2 ([#78](https://github.com/xanderbale/nuxt-vercel-analytics/pull/78))
+- **release:** V1.0.2 ([3a328cc](https://github.com/xanderbale/nuxt-vercel-analytics/commit/3a328cc))
+- Delete .eslintignore ([46058c4](https://github.com/xanderbale/nuxt-vercel-analytics/commit/46058c4))
+- Migrate eslint config ([51d4779](https://github.com/xanderbale/nuxt-vercel-analytics/commit/51d4779))
+- Fix eslint config ([71b255e](https://github.com/xanderbale/nuxt-vercel-analytics/commit/71b255e))
+- Update @nuxt/eslint-config ([989e333](https://github.com/xanderbale/nuxt-vercel-analytics/commit/989e333))
+- Update author info ([fa4ee68](https://github.com/xanderbale/nuxt-vercel-analytics/commit/fa4ee68))
+
+### ❤️ Contributors
+
+- Alexander Barkhatov <mail@xanderbarkhatov.com>
+
 ## v1.0.2
 
 [compare changes](https://github.com/xanderbarkhatov/nuxt-vercel-analytics/compare/v1.0.1...v1.0.2)

@@ -1,6 +1,6 @@
 {
   "name": "nuxt-vercel-analytics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nuxt module to integrate Vercel Analytics",
   "keywords": [
     "nuxt",
