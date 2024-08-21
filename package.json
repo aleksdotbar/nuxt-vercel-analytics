@@ -42,16 +42,16 @@
     "release": "npm run lint && npm run prepack && changelogen --release && npm publish && git push --follow-tags"
   },
   "dependencies": {
-    "@nuxt/kit": "3.10.1",
+    "@nuxt/kit": "3.12.4",
     "@vercel/analytics": "^1.0.0",
     "defu": "^6.1.2"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "0.3.13",
-    "@nuxt/module-builder": "0.5.5",
-    "@nuxt/schema": "3.10.1",
+    "@nuxt/module-builder": "0.8.3",
+    "@nuxt/schema": "3.12.4",
     "changelogen": "0.5.5",
     "eslint": "9.2.0",
-    "nuxt": "3.10.1"
+    "nuxt": "3.12.4"
   }
 }
