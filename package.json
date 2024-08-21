@@ -8,17 +8,12 @@
     "vercel",
     "analytics"
   ],
-  "homepage": "https://github.com/xanderbarkhatov/nuxt-vercel-analytics#readme",
+  "homepage": "https://github.com/xanderbale/nuxt-vercel-analytics#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xanderbarkhatov/nuxt-vercel-analytics.git"
+    "url": "git+https://github.com/xanderbale/nuxt-vercel-analytics.git"
   },
   "license": "MIT",
-  "author": {
-    "name": "Alexander B.",
-    "email": "mail@xanderbarkhatov.com",
-    "url": "https://xanderbarkhatov.com"
-  },
   "type": "module",
   "exports": {
     ".": {
